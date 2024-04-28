@@ -43,7 +43,7 @@ jobs:
         run: |
           echo SERVICE_NAME $SERVICE_NAME
           gcloud run deploy $SERVICE_NAME \
-            --image ${{ secrets.DOCKER_IMAGE_URL }}:latest \
+            --image us-central1-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest \
             --platform managed \
             --region us-central1 \
             --allow-unauthenticated
