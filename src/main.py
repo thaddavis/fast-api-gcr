@@ -5,7 +5,7 @@ from . import smokeTest
 import debugpy
 
 debugpy.listen(("0.0.0.0", 5678))
-# debugpy.wait_for_client()
+# debugpy.wait_for_client() # optional
 
 app = FastAPI()
 

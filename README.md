@@ -1,13 +1,20 @@
 # TLDR
 
-Welcome to "How to run a Python FastAPI on GCR in less than 10 minutes" 🎉
+Welcome to "How to deploy a dockerized FastAPI to GCR (CICD included)" 🎉
 
 ## Spiel
 
-This tutorial is the culmination of over a decade of struggle and sauce. You'll be fast-tracking your way to Web Development success if you pay attention closely.
+This tutorial is the culmination of years of struggle and sauce 🍅🌶️🔥 so you'll be fast-tracking your way to Web Development success if you pay attention closely.
 
-While this video is particularly marketed towards Python/FastAPI/GCP enthusiasts, I'll be demonstrating things in a general way so you can apply what you learn in many different scenarios.
+I suggest watching the video all the way through to understand it's overall message and then returning to sections as needed.
 
 ## Follow along
 
-So sit back, enjoy and if you want to follow along with the code, I've included a link to the .git repo
+This tutorial is in 4 parts...
+
+-> PART I - Create a Dev Container 
+-> PART II - Build a simple FastAPI
+-> PART III - Deploy the API to GCR
+-> PART IV - Set up CICD (w/ GitHub Actions)
+
+Sit back, enjoy, and if you want to follow along with the code, a .git repo is linked in the description
