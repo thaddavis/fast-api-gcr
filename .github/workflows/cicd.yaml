@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: custom-fast-api
   PROJECT_ID: gcr-tut
-  IMAGE_NAME: custom-fastapi
+  IMAGE_NAME: custom-fastapi/custom-fastapi
 
 on:
   push:
