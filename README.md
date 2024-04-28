@@ -1,6 +1,6 @@
 # TLDR
 
-Welcome to "How to deploy a dockerized FastAPI to GCR (CICD included)" 🎉
+Welcome to "How to deploy a dockerized FastAPI to Google Cloud Run (CICD included)" 🎉
 
 ## Spiel
 
