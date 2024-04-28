@@ -36,8 +36,8 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t gcr.io/${{ env.GCP_PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest -f Dockerfile.prod .
-          docker push gcr.io/${{ env.GCP_PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest
+          docker build -t gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest -f Dockerfile.prod .
+          docker push gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest
 
       - name: Deploy to Cloud Run
         run: |
