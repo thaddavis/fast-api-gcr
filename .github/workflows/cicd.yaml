@@ -45,5 +45,5 @@ jobs:
           gcloud run deploy $SERVICE_NAME \
             --image us-central1-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:latest \
             --platform managed \
-            --region us-central1 \
+            --region us-east1 \
             --allow-unauthenticated
